@@ -20,7 +20,7 @@ subdata <- subset(alldata, as.Date(DateTime) >= as.Date("2007-02-01") & as.Date(
 ##################################
 
 # Open png file with a width of 480 pixels and a height of 480 pixels
-# Background is set to NA (transparent), see forum discussion: https://class.coursera.org/exdata-011/forum/thread?thread_id=24
+# Background is set to NA, see forum discussion: https://class.coursera.org/exdata-011/forum/thread?thread_id=24
 png(filename = "plot4.png", width = 480, height = 480, bg = NA)
 
 # Set arrangement of 4 plots to 2 columns and 2 rows
